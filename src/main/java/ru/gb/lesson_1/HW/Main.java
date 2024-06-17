@@ -1,7 +1,6 @@
 package ru.gb.lesson_1.HW;
 
 import java.util.List;
-import java.util.concurrent.ThreadLocalRandom;
 
 public class Main {
     public static void main(String[] args) {
