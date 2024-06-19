@@ -1,4 +1,4 @@
-package ru.gb.lesson_1.HW;
+package ru.gb.homework.hw_1;
 
 import java.util.*;
 import java.util.stream.Collectors;
