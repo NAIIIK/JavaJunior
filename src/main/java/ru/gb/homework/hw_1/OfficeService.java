@@ -16,7 +16,7 @@ public class OfficeService {
      * Найти департамент, в котором работает сотрудник с самой большой зарплатой
      */
     static Optional<Department> findMostExpensiveDepartment(List<Person> people) {
-        return Optional.of(people.stream().max(Comparator.comparingDouble(Person::getSalary)).get().getDepartment());
+        return people.stream().max(Comparator.comparingDouble(Person::getSalary)).map(Person::getDepartment);
 
     }
 
